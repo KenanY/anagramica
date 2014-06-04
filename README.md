@@ -1,6 +1,7 @@
 # anagramica
 
 [![Build Status](https://travis-ci.org/KenanY/anagramica.svg)](https://travis-ci.org/KenanY/anagramica)
+[![Dependency Status](https://gemnasium.com/KenanY/anagramica.svg)](https://gemnasium.com/KenanY/anagramica)
 
 [Anagramica](http://anagramica.com/) API wrapper.
 
