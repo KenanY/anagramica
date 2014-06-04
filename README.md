@@ -1,5 +1,7 @@
 # anagramica
 
+[![Build Status](https://travis-ci.org/KenanY/anagramica.svg)](https://travis-ci.org/KenanY/anagramica)
+
 [Anagramica](http://anagramica.com/) API wrapper.
 
 ## Example
