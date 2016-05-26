@@ -13,7 +13,7 @@ test('exports an object with three functions', function(t) {
 });
 
 test('best', function(t) {
-  t.plan(4)
+  t.plan(4);
   anagramica.best(['b', 'r', 'e', 'a', 'd'], function(error, response) {
     t.ok(isNull(error));
     t.deepEqual(response, {'best': ['bared', 'beard', 'bread', 'debar']});
@@ -25,7 +25,7 @@ test('best', function(t) {
 });
 
 test('all', function(t) {
-  t.plan(4)
+  t.plan(4);
   anagramica.all(['b', 'r', 'e', 'a', 'd'], function(error, response) {
     t.ok(isNull(error));
     t.deepEqual(response, {'all': ['bared', 'beard', 'bread', 'debar']});
@@ -37,7 +37,7 @@ test('all', function(t) {
 });
 
 test('lookup', function(t) {
-  t.plan(2)
+  t.plan(2);
   anagramica.lookup('bread', function(error, response) {
     t.ok(isNull(error));
     t.deepEqual(response, {'found': 1});
